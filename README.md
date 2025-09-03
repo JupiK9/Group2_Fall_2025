@@ -1,37 +1,27 @@
 ## Folder Structure
 ___
-- code
-  - component: All classes and function needs to be here.
-  - main_code: Main loop codr needs to be here
-- demo
-  - fig
-- research paper
-  - Latex template
-  - Word template
-  - Markdown
-- presentation
-- full_report
-  - Latex template
-  - Word template
-  - Markdown
-
 ```
 .
-├── code
-│   ├── component
-│   └── main_code
+├── src
+│   ├── component          # All classes and functions need to be here
+│   ├── docs              # Documentation files
+│   ├── shellscripts      # Shell scripts for automation
+│   └── tests             # Unit tests and test files
 ├── demo
-│   └── fig
-├── full_report
-│   ├── Latex_report
-│   │   └── fig
-│   ├── Markdown_Report
-│   └── Word_Report
-├── presentation
-└── research_paper
-    ├── Latex
-    │   └── Fig
-    └── Word
+│   └── fig               # Demo figures and images
+├── reports
+│   ├── Latex_report
+│   │   └── fig           # Figures for LaTeX report
+│   ├── Markdown_Report   # Markdown format reports
+│   ├── Progress_Report   # Weekly progress reports
+│   │   └── Markdown_CheatSheet
+│   └── Word_Report       # Word format reports
+├── presentation          # Presentation materials
+├── research_paper
+│   ├── Latex
+│   │   └── Fig          # Figures for research paper
+│   └── Word             # Word format research paper
+└── cookbooks            # Jupyter notebooks and tutorials
 ```
 
 ___
